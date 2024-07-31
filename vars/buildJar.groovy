@@ -3,7 +3,8 @@
 def call(){
     echo 'Building Jar File'
     sh '''
-        ls -a
         mvn package
+        ls -a
+        
         '''
 }
